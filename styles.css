@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    font-size: 1vw;
+}
+.nav{
+    width: 100%;
+    background-color:#F7D8BC;
+    height: 8vw;
+    margin-bottom:2vw;
+}
+.nav ul{
+    height: inherit;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size:1.2vw;
+    width: 100%;
+    padding-left: 0;
+}
+.nav li{
+    text-align: center;
+    width: 25%;
+    padding-top: 3em;
+}
+
+.nav li.active{
+    color:blanchedalmond;
+    
+}
+.nav li:hover{
+    color: aliceblue;
+}
+.nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgelement{
+    margin-top: 5vw;
+    
+}
+.rimedo{
+    width: 20vw;
+    border:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 5%;
+}
+.rimedo:hover{
+    border: 4px;
+    border-color:white;
+    border-style: solid;
+}
+.landing{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing img{
+    width: 15vw;
+}
+.text{
+    margin-bottom: 3vw;
+}
+.products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+    
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2vw;
+}
+.btn{
+    width: 12vw;
+    height: 2.5vw;
+    margin-top: 1vw;
+    border: none;
+    background-color:#F7D8BC ;
+    border-radius: 1vw;
+    font-size: 1vw;
+}
+.btn:hover{
+    color:#00243E;
+    border: 3px;
+    border-style: solid;
+    border-color: #00243E;
+    background: linear-gradient(90deg, rgba(231,153,84,1) 0%, rgba(246,215,187,1) 100%);
+}
+.footer{
+    width:100%;
+    background-color: #F7D8BC;
+    font-size: 1vw;
+    height: 5vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2vw;
+
+    
+}
+.info{
+    width: 20%;
+    height: 2.3vw;
+    
+    
+}
+.footer img{
+    height: 2vw;
+    
+}
+.shop{
+    width: 20%;
+    font-size: 1vw;
+    text-align: center;
+    
+}
+.slike{
+    width: 20%;
+}
+.cpic{
+    width: 16vw;
+    margin-bottom: 2vw;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10vw;
+    justify-content:space-between;
+    margin: 0 8vw;
+    margin-bottom: 2vw;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.addtocart{
+    height: 2vw;
+    background-color:#FEFAEE ;
+    border: solid 2px;
+    border-color:#F7D8BC ;
+    font-size: 1vw;
+    border-radius: 1vw;
+}
+.addtocart:hover{
+    border-color: black;
+    background-color: #F7D8BC;
+}
+.ctext{
+    font-size: 1.4vw;
+    text-align: center;
+}
+.about{
+    min-height: calc(80vh - 5px); /* Adjust 50px based on your navbar's actual height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('C:\Users\Admin\RIMEDO Coffee\src\pictures\image 3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2vw;
+}
+.atext{
+    text-align: center;
+    padding: 0 10vw;
+    font-size: 1.5vw;
+    font-family: preahviher;
+}
+.row{
+    border: none;
+}
+.offset-lg-3{
+    width: 35vw;
+    margin: 8vw auto;
+    border: none;
+} 
+.card{
+    border: none;
+    background-color: #FEFAEE;
+    padding: 1vw;
+}
+.card-header{
+    background-color: #FEFAEE;
+    text-align: center;
+    border: none;
+}
+.card-footer{
+    background-color: #FEFAEE;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -2vw;
+}
+.card-body{
+    background-color: #FEFAEE;
+    border: none;
+}
+.form-group{
+    margin-bottom: 2vw;
+}
+.form-control{
+    border: none;
+}
+.reg{
+    margin: 7vw 0;
+}
+.contactp{
+    height: 30vw;
+    width: 100%;
+    margin: 4vw 0vw;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: row;
+   
+}
+.contact-form{
+    display: flex;
+    flex-direction:column;
+    width: 33%;
+    align-items: center;
+}
+.contact-form textarea{
+    width: 80%;
+    height: 70%;
+}
+.contactinfo{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.cright{
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.box{
+    height: 80%;
+    width: 80%;
+    background-color: #FEFAEE;
+    border: black 1px;
+    border-style: solid;
+    
+}
+.cright iframe{
+    width: 20vw;
+    height: 10vw;
+}
+.cright img{
+    height: 100%;
+}
+.box{
+    padding: 2.5vw;
+}
+.box p{
+    margin: 2vw 0;
+}
+.cart img{
+    width: 8vw;
+    height: 12vw;
+}
+.cart{
+    margin: -2vw auto;
+    background-image: url('C:\Users\Admin\RIMEDO Coffee\src\pictures\image 3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 8vw;
+
+}
+.cart p{
+    margin: 8vw;
+}
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.quant{
+    height: 1.5vw;
+    width: 1vw;
+    border: none;
+    background-color: #F7D8BC;
+    border-radius: 1vw;
+}
+.quant:hover{
+    color: white;
+}
+.qinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.cartinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+    align-items: center;
+    margin-top: -7vw;
+}
+.cartinfo p{
+    margin-left: 1vw;
+    padding-top: 1vw;
+}
+.checkout{
+    text-align: center;
+    border: none;
+    width: 6vw;
+    background-color: #F7D8BC;
+    color: red;
+}
+.checkout:hover{
+    color: white;
+}
+.cart h2{
+    margin-bottom: 3vw;
+    margin-left:9vw;
+    margin-top: 3vw;
+}

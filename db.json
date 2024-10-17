@@ -1,0 +1,86 @@
+{
+  "user": [
+    {
+      "id": "meho",
+      "name": "meho balic",
+      "password": "123123",
+      "email": "meho@gmail.com",
+      "phone": "062123123",
+      "Drzava": "BiH",
+      "Adresa": "sije 2",
+      "Spol": "Muško"
+    },
+    {
+      "id": "imko",
+      "name": "imran mudryk",
+      "password": "123456",
+      "email": "imko@gmail.com",
+      "phone": "061123123",
+      "Drzava": "BiH",
+      "Adresa": "ze 14",
+      "Spol": "Muško"
+    },
+    {
+      "id": "aligator",
+      "name": "aligator",
+      "password": "123123",
+      "email": "aligator@gmail.com",
+      "phone": "123123",
+      "Drzava": "BiH",
+      "Adresa": "nema",
+      "Spol": "Muško",
+      "isAdmin": true
+    },
+    {
+      "id": "ribo",
+      "name": "amar ribo",
+      "password": "123321",
+      "email": "ribo@gmail.com",
+      "phone": "9161231",
+      "Drzava": "BiH",
+      "Adresa": "ribo",
+      "Spol": "Muško",
+      "isAdmin": false
+    },
+    {
+      "id": "f6ad",
+      "role": "admin",
+      "username": "aligator",
+      "message": "Test kontak forme !"
+    },
+    {
+      "id": "15a6",
+      "role": "admin",
+      "username": "aligator",
+      "message": "najbolja forma ikada"
+    },
+    {
+      "id": "7d39",
+      "role": "admin",
+      "username": "aligator",
+      "message": "gdfybybc"
+    },
+    {
+      "id": "06e2",
+      "role": "admin",
+      "username": "aligator",
+      "message": "sdgsdgcf"
+    },
+    {
+      "id": "vedad",
+      "name": "vedad ramic",
+      "password": "123123",
+      "email": "vedo@gmail.com",
+      "phone": "123123123",
+      "Drzava": "",
+      "Adresa": "matuzici",
+      "isAdmin": false
+    },
+    {
+      "id": "229f",
+      "role": "guest",
+      "username": "vedad",
+      "message": "kafa vam je ekstra\n"
+    }
+  ]
+}
